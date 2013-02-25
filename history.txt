@@ -1,0 +1,500 @@
+   90  clear
+   91  git add one.txt 
+   92  git commit -m "add one.txt"
+   93  git status
+   94  git commit -m "add new file"
+   95  clear
+   96  cat /etc/passwd >> two.txt
+   97  clear
+   98  ls
+   99  git add '*.txt'
+  100  git status
+  101  git commit -m 'add two.txt'
+  102  git config --global user.name "sam"
+  103  git config --global user.email "fansabc@gmail.com"
+  104  git commit --amend --reset-author
+  105  git status
+  106  clear
+  107  git log
+  108  git remote add origin git@github.com:socialsener/try_git.git
+  109  ls
+  110  git push -u origin master
+  111  ls
+  112  cat ＊
+  113  cat *
+  114  clear
+  115  ifconfig
+  116  ifconfig
+  117  ifconfig
+  118  cd Documents/HtmlDemo/
+  119  ls random.js 
+  120  node random.js 
+  121  node random.js 
+  122  % node random.js
+  123  node random.js
+  124  sudo su - root
+  125  ifconfig
+  126  ls
+  127  cd Documents/
+  128  ls
+  129  ls -l
+  130  cd HtmlDemo/
+  131  ls
+  132  clear
+  133  node random.js 
+  134  node random.js 
+  135  man node
+  136  node -v
+  137  node random.js 
+  138  node random.js 
+  139  node random.js 
+  140  node random.js 
+  141  node random.js 
+  142  node node_hello.js 
+  143  node node_hello.js 
+  144  node node_hello.js 
+  145  ls
+  146  cd ..
+  147  cd git/
+  148  ls
+  149  ls -al
+  150  rm -rf *
+  151  ls -la
+  152  man git
+  153  git -v
+  154  git --version
+  155  clear
+  156  git config --global user.name "sam"
+  157  git config --global user.email "fansabc@gmail.com"
+  158  git credeential -osxkeychain
+  159  git credential -osxkeychain
+  160  mkdri firstDemo
+  161  mkdir first
+  162  ls
+  163  cd first/
+  164  ls
+  165  git init
+  166  vim readHello.txt
+  167  git add readHello.txt 
+  168  git commit -m 'first text'
+  169  git statu
+  170  git status
+  171  git remote add origin https://github.com/socialsener/tmp.git
+  172  git push origin master
+  173  git push origin master https://github.com/socialsener/firsttext.git
+  174  git push origin master
+  175  clear
+  176  ls
+  177  cd ..
+  178  ls
+  179   rm first/
+  180  ls
+  181  rm -rf first/
+  182  ls
+  183  ls -a
+  184  mkdir second
+  185  cd second/
+  186  ls
+  187  git init
+  188  vim text
+  189  git add text 
+  190  git commit -m 'the first text'
+  191  git remote add origin https://github.com/socialsener/firsttext.git
+  192  git push origin master
+  193  ls
+  194  ls
+  195  mkdir second.txt
+  196  ls
+  197  rm -rf second.txt/
+  198  ls
+  199  vim second.txt
+  200  git add second.txt 
+  201  git commit -m 'second file'
+  202  git remote add origin https://github.com/socialsener/firsttext.git
+  203  git push -u origin master
+  204  ls -l
+  205  git push -u origin master
+  206  git pull
+  207  ls -l
+  208  git status
+  209  cat second.txt 
+  210  clear
+  211  ls
+  212  rm -rf text 
+  213  ls
+  214  git status
+  215  ls
+  216  git push -u origin master
+  217  ls -;
+  218  ls -l
+  219  ls -l
+  220  git pull
+  221  ls -l
+  222  git log
+  223  ls
+  224  cd ..
+  225  ls
+  226  mkdri pages
+  227  cd pages
+  228  ls
+  229  ls
+  230  mkdir pages
+  231  ls
+  232  cd pages/
+  233  ls
+  234  git clone https://github.com/socialsener/html.git
+  235  ls
+  236  cd html/
+  237  ls
+  238  echo 2.html > 2.html
+  239  ls
+  240  cd ..
+  241  ls
+  242  git add ./html/2.html 
+  243  git init
+  244  ls
+  245  git add '*'
+  246  git HEAD
+  247  HEA
+  248  HEAD
+  249  git status
+  250  clear
+  251  ls
+  252  git add '*'
+  253  ls
+  254  git commit -m 'add more files'
+  255  ls
+  256  git remote add origin https://github.com/socialsener/html.git
+  257  git push
+  258  ls -l
+  259  ls -l
+  260  cd html/
+  261  ls
+  262  git add 2.html 
+  263  git commit -m 'new file'
+  264  git remote add origin https://github.com/socialsener/html.git
+  265  clear
+  266  ls -l
+  267  cd ..
+  268  ls 
+  269  rm -rf html/
+  270  ls
+  271  git init
+  272  clear
+  273  git fetch origin
+  274  ls -l
+  275  git checkout gh-pages
+  276  git checkout html
+  277  git checkout socialsener
+  278  git checkout 
+  279  git checkout master
+  280  git checkout master
+  281  ls
+  282  git fetch origin
+  283  ls -l
+  284  cd html/
+  285  ls
+  286  cd ..
+  287  ls
+  288  rm html/
+  289  ls
+  290  rm -rf html/
+  291  clear
+  292  ls -l
+  293  git fetch origin
+  294  git checkout gh-pages
+  295  ls
+  296  cat index.html 
+  297  clear
+  298  echo 2.html > 2.html
+  299  clear
+  300  ls -l
+  301  git add 2.html 
+  302  git commit -m 'new file'
+  303  git push
+  304  clear
+  305  ls -l
+  306  git rm 2.html 
+  307  clear
+  308  git commit -m 'remove 2.html'
+  309  git push
+  310  ls -l
+  311  clear
+  312  vim one.txt
+  313  git add one.txt 
+  314  git commit -m 'add new file'
+  315  git push
+  316  git pull
+  317  git diff HEAD
+  318  git diff one.txt 
+  319  clear
+  320  ls -l
+  321  cat one.txt 
+  322  clear
+  323  vim one.txt 
+  324  git push
+  325  git add one.txt 
+  326  git commit -m 'one.txt'
+  327  git push
+  328  ls -l
+  329  clear
+  330  ls -l
+  331  clear
+  332  ls -l
+  333  clear
+  334  cd Documents/HtmlDemo/
+  335  node random.js 
+  336  cd ../git/
+  337  ls
+  338  cd pages/
+  339  ls
+  340  git log
+  341  checkout origin master
+  342  git checkout origin master
+  343  git checkout
+  344  git pull
+  345  clear
+  346  ls -l
+  347  git mv one.txt one_new.txt
+  348  git status
+  349  git commit -m 'mv one.txt'
+  350  git push
+  351  git status
+  352  git diff
+  353  git diff --staged
+  354  clear
+  355  ls -la
+  356  cd .git
+  357  ls -la
+  358  cat config 
+  359  cd ..
+  360  ls -l
+  361  ls -l
+  362  clear
+  363  touch three.txt
+  364  echo three > three.txt 
+  365  cat three.txt 
+  366  clear
+  367  git status
+  368  git commit -am 'three'
+  369  git commit -a 'three'
+  370  git status
+  371  clear
+  372  git add *
+  373  git staged
+  374  git stage
+  375  git status
+  376  clear
+  377  git commit -m 'three'
+  378  git status
+  379  clear
+  380  git push
+  381  git log
+  382  git diff
+  383  clear
+  384  touch four.txt
+  385  git diff
+  386  git diff HEAD
+  387  git status
+  388  git diff --staged
+  389  git add four.txt 
+  390  git diff
+  391  git status
+  392  git diff --staged
+  393  git commit -m 'new file'
+  394  git status
+  395  git push
+  396  git status
+  397  clear
+  398  git status
+  399  ls
+  400  git mv one_new.txt five.txt
+  401  git status
+  402  git add *
+  403  git commit -u 'mv one.txt name'
+  404  git commit -m 'mv one.txt name'
+  405  git stauts
+  406  git status
+  407  clear
+  408  git push
+  409  git status
+  410  git pull
+  411  clear
+  412  ls
+  413  ls -l
+  414  git rm five.txt four.txt 
+  415  git add *
+  416  git status
+  417  git commit -m 'remove four five.txt'
+  418  git push
+  419  git status
+  420  ls -l
+  421  vim test1.txt test2.txt
+  422  ls -l
+  423  cat test1.txt 
+  424  vim test2.txt
+  425  clear
+  426  git add test1.txt 
+  427  git commit -m 'add test1.txt'
+  428  git status
+  429  git push
+  430  git status
+  431  git add test2.txt 
+  432  clear
+  433  git commit -m 'add test2.txt'
+  434  git push
+  435  clear
+  436  git status
+  437  clear
+  438  clear
+  439  ls -l
+  440  clear
+  441  ls -l
+  442  git branch demo
+  443  git log
+  444  git diff
+  445  git status
+  446  ls -l
+  447  clear
+  448  git rm '*.txt'
+  449  ls -l
+  450  git checkout master
+  451  ls -l
+  452  cd html/
+  453  ls -l
+  454  cd ..
+  455  ls -l
+  456  git merge demo
+  457  git branch -d demo
+  458  git push
+  459  ls -l
+  460  git branch tmp
+  461  clear
+  462  git status
+  463  clear
+  464  git diff HEAD
+  465  clear
+  466  ls 
+  467  vim six.txt
+  468  HEAD
+  469  git HEAD
+  470  git diff HEAD
+  471  git add *
+  472  git diff HEAD
+  473  git commit -m 'add six'
+  474  git status
+  475  git push
+  476  git log -p
+  477  gitk
+  478  clear
+  479  git branch
+  480  git branch tmp
+  481  git branch -a
+  482  clear
+  483  git status
+  484  git checkout tmp
+  485  clear
+  486  git branch
+  487  clear
+  488  ls -l
+  489  git status
+  490  touch seven.txt
+  491  clear
+  492  git checkout master
+  493  git branch
+  494  git merge tmp
+  495  ls -l
+  496  git status
+  497  git add *
+  498  git commit -m 'merge branch'
+  499  git push
+  500  ls -l
+  501  git status
+  502  ls -l
+  503  git branch -d tmp
+  504  git push origin master
+  505  git diff HEAD
+  506  git status
+  507  ls -l
+  508  git add *
+  509  ls -l
+  510  git status
+  511  ls -l
+  512  git branch -a
+  513  clera
+  514  clear
+  515  git status
+  516  git branch
+  517  git checkout gh-pages
+  518  clear
+  519  git add *
+  520  git status
+  521  clear
+  522  git diff
+  523  clear
+  524  git branch -d master
+  525  git branch -D master
+  526  git branch
+  527  clra
+  528  git push origin gh-pages
+  529  clear
+  530  ls -l
+  531  git branch
+  532  git branch -a
+  533  git checkout master
+  534  ls -l
+  535  git '*.txt'
+  536  git rm '*.txt'
+  537  ls -l
+  538  git rm html/
+  539  ls -l
+  540  git rm *
+  541  ls -l
+  542  git merge master
+  543  git merge gh-pages
+  544  ls -l
+  545  git -d master
+  546  git branch -d master
+  547  git checkout gh-pages
+  548  git branch -d master
+  549  git merge master
+  550  git branch -d master
+  551  git branch
+  552  git branch -a
+  553  git tag
+  554  git remote show
+  555  l
+  556  ls
+  557  touch thanks.txt
+  558  git commit -a
+  559  ls -l
+  560  git push
+  561  git branch
+  562  ls -l
+  563  git status
+  564  clear
+  565  ls -l
+  566  git status
+  567  git status
+  568  clear
+  569  ls -l
+  570  clear
+  571  ls -l
+  572  git commit -a
+  573  clear
+  574  git push
+  575  git branch
+  576  git branch -a
+  577  clear
+  578  clear
+  579  ls -l
+  580  git status
+  581  git add thanks.txt 
+  582  git status
+  583  git commit -m 'add thanks file'
+  584  git push
+  585  clear
+  586  history
+  587  clear
+  588  history
+  589  history > history.txt
