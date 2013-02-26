@@ -1,4 +1,5 @@
    90  clear
+hahha
    91  git add one.txt 
    92  git commit -m "add one.txt"
    93  git status
